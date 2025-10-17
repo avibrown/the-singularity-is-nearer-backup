@@ -1,5 +1,8 @@
 name: Daily Geohot Blog Scraper
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 6 * * *"  # runs daily at 06:00 UTC
